@@ -5,6 +5,8 @@ def robot_returns_to_origin(moves):
     # Initialize starting position
     x = 0
     y = 0
+   
+
 
 
     # TODO: Loop through each move and update x, y
@@ -41,6 +43,9 @@ def two_sum_brute_force(numbers, target):
     return None  # Return None if no pair found)
 
 
+
+
+
 # Part B: Optimized with Dictionary
 def two_sum_optimized(numbers, target):
     seen = {}  # Dictionary to store {number: index}
@@ -59,6 +64,9 @@ test_cases = [
     ([3, 3], 6),
     ([1, 5, 3, 8, 2], 10)
 ]
+
+
+
 
 print("=== Part A: Brute Force (Nested Loops) ===")
 for numbers, target in test_cases:
@@ -84,6 +92,9 @@ def shuffle_array(nums, n):
 
     # Step 2: Create empty result list
     result = []
+
+
+
 
     # Step 3: Interleave using a for loop
     # TODO: Loop through range(n) and append alternating elements
